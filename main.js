@@ -6,8 +6,8 @@ document.addEventListener('DOMContentLoaded', function () {
   var second = document.querySelector('.second');
 
   var startDate = new Date("01,  16, 2020");
-  //days.innerText = Math.floor((new Date - startDate) / 86400000) + 1;
-  days.innerText =2000;
+  days.innerText = Math.floor((new Date - startDate) / 86400000) + 1;
+  //days.innerText =2000;
   countTime();
 
   function countTime() {
