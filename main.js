@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
   var min = document.querySelector('.min');
   var second = document.querySelector('.second');
 
-  var startDate = new Date("01,  16, 2020");
+  var startDate = new Date("01,  16, 2020".replace(" ", "T"));
   days.innerText = Math.floor((new Date - startDate) / 86400000) + 1;
   //days.innerText =2000;
   countTime();
